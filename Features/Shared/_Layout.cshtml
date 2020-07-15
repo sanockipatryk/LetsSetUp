@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LetsSetUp</title>
+    <base href="~/" />
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+    </environment>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnZ2rm7-tP5Uf9TcCos3dgzeZhAmE52Gg" ></script>
+<style>
+    html{
+        background-color: #3AAFA9;
+    }
+    </style>
+
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
