@@ -22,7 +22,7 @@
   "dependencies": {
     "@deveodk/vue-toastr": "^1.0.4",
     "aspnet-prerendering": "^3.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.11",
